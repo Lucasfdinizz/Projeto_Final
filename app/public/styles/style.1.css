@@ -1,0 +1,130 @@
+body { 
+  font-family: 'Roboto Condensed', sans-serif; 
+  font-size: 100%; 
+  background: linear-gradient(rgba(168, 159, 159, 0.75), rgba(168, 159, 159, 0.75)); 
+}
+
+.header { 
+      background: linear-gradient(rgba(54, 54, 54, 0.75),rgba(41, 40, 40, 0.85)); 
+      height: 180px; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+  }
+  .header .headerTitle { 
+      font-size: 5em; 
+      color: #ddd; 
+      font-weight: 950;
+  }
+
+label {
+  background: linear-gradient(rgba(168, 159, 159, 0.75),rgba(241, 238, 241, 0.85)); 
+  font-size: 0.8em;
+  display: flex; 
+  align-items: center; 
+  justify-content: right; 
+  color: #ddd; 
+}
+
+div {
+  width: 830px;
+}
+
+b {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: space-evenly;
+  font-size: 1.5em; 
+  color: #fa0303; 
+  margin: 1em 0; 
+  font-weight: 950; 
+}
+
+h1 { 
+  padding: 0% 0.5%;
+  font-size: 2em; 
+  color: #fa6c6c; 
+  margin: 1em 0; 
+  font-weight: 950;
+}
+
+figure {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  font-size: 0.5em; 
+  margin: 0.5em 0;
+}
+
+h2 {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  font-size: 1.3em; 
+  height: 70px; 
+}
+
+
+ul {
+  margin: 0;
+  padding: 0.5em;
+  list-style: none;
+  width: 150px;
+  }
+
+ul li {
+  position: relative;
+  }
+
+li ul {
+  position: absolute;
+  left: 149px;
+  top: 0;
+  display: none;
+  }
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #E2144A;
+  background: #fff;
+  padding:5px 10px; 
+  display:block;
+  border: 1px solid #ccc;
+  }
+
+ul li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+li:hover ul { display: block; }
+
+
+button {
+background: #db08d1;
+color: #ddd;
+border-style: outset;
+border-color: #ddd;
+  border-radius: 10px;
+height: 30px;
+width: 170px;
+font: bold35px arial,sans-serif;
+text-shadow: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.address {
+  color:#ddd
+}
+
+.footer {
+  background-color: rgb(107, 107, 107);
+  padding: 2% 2%;
+}

@@ -1,0 +1,113 @@
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container{
+    margin: 10px;
+}
+.card{
+    padding: 10px 0;
+}
+#historicoTable{
+    width: 100%;
+    border: 1px solid black;
+    min-width: 750px
+}
+#historicoTable tr{
+    border: 1px solid
+}
+#historicoTable tr td{
+    text-align: center;
+    padding: 5px;
+}
+#historicoTable tr th{
+    text-align: center;
+    width: 20%;
+    padding: 5px;
+}
+#feedback{
+    padding: 20px 0 20px 0;
+}
+.sucesso{
+    color: green;
+}
+.falha{
+    color: red;
+}
+table { 
+    border-collapse: collapse; 
+}
+.paginacao {
+    display: inline-block;
+  }
+  
+.paginacao a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.paginacao a.active {
+background-color: #333;
+color: white;
+}
+
+.paginacao a.disabled{
+    color: #cecece;
+}
+.paginacao a:hover:not(.active,.disabled) {background-color: #ddd;}
+
+.campoFormulario{
+    min-height: 20px;
+    padding: 10px
+}
+.campoFormulario label{
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+}
+.campoFormulario input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    height: 30px;
+}
+.campoFormulario textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    min-height: 50px;
+}
+.campoFormulario a{
+    float: inline-end;
+    display: flex;
+    background: #05cee9;
+    color: #ddd;
+    border-style: outset;
+    border-color: #ddd;
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    text-shadow: none;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+.formCard{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.formCard button{
+   float: right;
+}
+.centeredCard{
+    display: flex;
+    justify-content: center;
+}
+  
